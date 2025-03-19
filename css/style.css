@@ -7,12 +7,20 @@
 }
 
 body {
-  background-image: url("/images/backgound-gradient.png");
+  background-image: url("/images/backgound-gradient.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
+}
+
+.navbar {
+  font-family: "Public Sans", sans-serif;
+}
+
+.flora-logo {
+  width: 75px;
 }
 
 .linea-vertical-1 {
@@ -53,11 +61,36 @@ h2 {
 }
 
 .flora-image {
-  display: block;
   margin: 95px auto 45px auto;
   width: 250px;
-  height: 250px;
   border: 3px solid white;
   border-radius: 200px;
   padding: 3px;
+}
+
+@media (max-width: 576px) {
+  .flora-image {
+    margin: 200px auto 45px auto;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 200px;
+    padding: 3px;
+  }
+
+  h1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .title {
+    margin-top: -35px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+  }
 }

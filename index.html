@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link href="https://db.onlinewebfonts.com/c/0ec65ee35066f8dc1678fa73412ce9b8?family=Ogg+Text+TRIAL" rel="stylesheet" />
     <link href="https://db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg+Roman" rel="stylesheet" />
-
     <link rel="stylesheet" href="css/style.css" />
 
     <script
@@ -29,62 +29,108 @@
     <title>Flora Persichini - Graphic & UX/UI Designer · Front-end Developer</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top fw-bold">
-        <div class="container-fluid">
-          <img src="images/flora logo-01.png" alt="flora-logo" class="flora-logo img-fluid ms-3" />
-          <a class="navbar-brand ms-1 me-5" href="#">Flora Persichini</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-5">
-              <li class="nav-item me-3">
-                <a class="nav-link active text-decoration-underline" aria-current="page" href="/">HOME</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="/about.html">ABOUT</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="/contact.html">CONTACT</a>
-              </li>
-              <li class="nav-item dropdown me-5">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  WORK
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">UX/UI</a></li>
-                  <li><a class="dropdown-item" href="#">Development</a></li>
-                  <li><a class="dropdown-item" href="#">Photography</a></li>
-                </ul>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top fw-bold">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-1 me-5" href="#">
+          <img src="images/flora logo-01.png" alt="flora-logo" class="flora-logo img-fluid" /> Flora Persichini</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-5">
+            <li class="nav-item me-3">
+              <a class="nav-link active text-decoration-underline" aria-current="page" href="/">HOME</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                WORK
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">UX/UI</a></li>
+                <li><a class="dropdown-item" href="#">Development</a></li>
+                <li><a class="dropdown-item" href="#">Photography</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="header container">
+        <img src="images/flora-thumbnail-bw.png" alt="Flora Persichini Picture" class="flora-image" />
+        <div class="line-1"></div>
+        <h1 class="title-hi sans-serif-font text-center">Hi, I'm Flora.</h1>
+        <h2 class="index-subtitle serif-font text-center">Graphic & UX/UI Designer · Front-end Developer</h2>
+        <div class="line-2"></div>
+      </div>
+
+      <div class="projects container">
+        <h3 class="text-center">PROJECTS</h3>
+        <div class="line-3"></div>
+        <div class="row breeze">
+          <div class="d-none d-md-block col-md-6">
+            <img src="/images/breeze-app.png" alt="Breeze Project Thumbnail" class="img-fluid rounded" />
+          </div>
+          <div class="col-12 mb-5 col-md-6">
+            <h2 class="sans-serif-font project-titles text-center mt-4 mb-3 text-md-start">Breeze Weather.</h2>
+            <p class="p-0 text-center mb-3 text-md-start">
+              Breeze Weather is a sleek weather website built with <strong>HTML, CSS, and JavaScript</strong>, featuring
+              <strong>API integration, UI/UX design</strong>, and a custom logo.
+            </p>
+            <div class="mt-5 text-center mb-3 text-md-start">
+              <a href="#" class="primary-buttons" title="Launch Yoga App">Visit website</a>
+            </div>
           </div>
         </div>
-      </nav>
-    </div>
-    <main>
-      <img src="images/flora-thumbnail.png" alt="Flora Persichini Picture" class="flora-image d-block img-fluid" />
-      <div class="linea-vertical-1"></div>
-      <h1 class="title sans-serif-font text-center mb-1">Hi, I'm Flora.</h1>
-      <h2 class="serif-font text-center">Graphic & UX/UI Designer · Front-end Developer</h2>
-      <div class="linea-vertical-2"></div>
-      <div class="card"></div>
+
+        <div class="row clocks">
+          <div class="col-12 mb-5 col-md-6">
+            <h2 class="sans-serif-font project-titles text-center mb-3 text-md-start">World Clocks.</h2>
+            <p class="text-center p-0 text-md-start">
+              World Clocks is a simple but stylish website built with HTML, CSS, and JavaScript, featuring moment.js, timezones, API integration, and
+              a custom design for real-time global time tracking.
+            </p>
+            <div class="mt-5 text-center text-md-start">
+              <a href="#" class="primary-buttons" title="Launch Weather App">Visit website</a>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-md-6">
+            <img src="/images/random-clocks-app.png" alt="Clocks Project Thmbnail" class="img-fluid rounded" />
+          </div>
+        </div>
+
+        <div class="row poem">
+          <div class="d-none d-md-block col-md-6 mb-5">
+            <img src="/images/poem-ai-app.png" alt="PoemAI Project Thumbnail" class="img-fluid rounded" />
+          </div>
+          <div class="col-sm-12 mb-sm-5 col-md-6">
+            <h2 class="sans-serif-font project-titles text-center mb-3 text-md-start">PoemAI.</h2>
+            <p class="text-center p-0 text-md-start">
+              PoemAI is an innovative website built with HTML, CSS, and JavaScript, using forms and API integration to create unique AI-generated
+              poems from a user-provided word.
+            </p>
+            <div class="mt-5 text-center text-md-start mb-5">
+              <a href="#" class="primary-buttons" title="Launch Yogurt App">Visit website</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

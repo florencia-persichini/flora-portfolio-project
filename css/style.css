@@ -163,6 +163,11 @@ p {
   text-transform: capitalize;
 }
 
+.about-text {
+  margin-top: 200px;
+  padding: 0 250px;
+}
+
 @media (max-width: 900px) {
   .flora-image {
     width: 200px;
@@ -193,7 +198,7 @@ p {
     font-size: 18px;
     line-height: 22px;
     font-family: "Ogg Roman";
-    font-weight: 900;
+    font-weight: 500;
   }
 
   .breeze {
@@ -206,5 +211,14 @@ p {
 
   .poem {
     margin-top: 20px;
+  }
+
+  .about-text {
+    margin-top: 200px;
+    padding: 0 50px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Ogg Roman";
+    font-weight: 500;
   }
 }

@@ -180,6 +180,22 @@ p {
     height: 40px;
   }
 
+  .projects {
+    padding: 0 40px;
+  }
+
+  .project-titles {
+    font-style: normal;
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Ogg Roman";
+    font-weight: 100;
+  }
+
   .breeze {
     margin-top: 20px;
   }

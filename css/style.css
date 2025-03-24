@@ -13,14 +13,21 @@
   font-weight: 100;
 }
 
-body {
+.index-bg {
   background-image: url("/images/background.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center 112px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
-  margin: 0;
-  background-position: 0 112px;
+}
+
+.about-bg {
+  background-image: url("/images/backgound-gradient-about.jpg");
+  background-position: center 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .navbar {
@@ -31,12 +38,17 @@ body {
   width: 65px;
 }
 
-.header {
+.header-index {
   position: relative;
   top: 190px;
 }
 
-.flora-image {
+.header-about {
+  position: relative;
+  top: 170px;
+}
+
+.flora-image-index {
   display: block;
   margin: 0 auto;
   border: 3px solid black;
@@ -45,10 +57,26 @@ body {
   width: 280px;
 }
 
-.line-1 {
+.flora-image-about {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 200px;
+  padding: 4px;
+  width: 180px;
+}
+
+.line-1-index {
   margin: 0 auto 25px auto;
   width: 3px;
   height: 65px;
+  background-color: black;
+}
+
+.line-1-about {
+  margin: 0 auto 25px auto;
+  width: 3px;
+  height: 54px;
   background-color: black;
 }
 
@@ -74,14 +102,21 @@ h2 {
   margin-bottom: 41px;
 }
 
-.line-2 {
+.line-2-index {
   margin: 0 auto;
   width: 3px;
   height: 380px;
   background-color: black;
 }
 
-.line-3 {
+.line-2-about {
+  margin: 0 auto;
+  width: 3px;
+  height: 64px;
+  background-color: black;
+}
+
+.line-3-index {
   margin: 0 auto;
   position: relative;
   top: 12px;

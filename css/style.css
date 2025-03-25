@@ -32,8 +32,7 @@
 }
 
 .header {
-  position: relative;
-  top: 170px;
+  margin-top: 170px;
 }
 
 .flora-image-index {
@@ -54,6 +53,21 @@
   width: 200px;
 }
 
+h1 {
+  font-size: 68px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: black;
+}
+
 .line-1 {
   margin: 0 auto 15px auto;
   width: 3px;
@@ -61,22 +75,8 @@
   background-color: black;
 }
 
-h1 {
-  font-size: 68px;
-  font-weight: 800;
-  color: black;
-  line-height: 1;
-  letter-spacing: -2px;
-}
-
 .title-dev-work {
   margin-top: 160px;
-}
-
-h2 {
-  font-size: 25px;
-  font-style: italic;
-  color: black;
 }
 
 .line-2 {
@@ -96,10 +96,10 @@ h2 {
 }
 
 p {
-  font-size: 22px;
-  line-height: 28px;
-  font-family: "Ogg Roman";
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
   font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 .breeze {
@@ -139,7 +139,8 @@ p {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500;
   }
 
   .line-1 {
@@ -158,8 +159,6 @@ p {
   p {
     font-size: 18px;
     line-height: 22px;
-    font-family: "Ogg Roman";
-    font-weight: 600;
   }
 
   .breeze {

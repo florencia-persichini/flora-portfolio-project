@@ -143,6 +143,15 @@ p {
     width: 200px;
   }
 
+  .about-bg {
+    background-position: center 68px;
+  }
+
+  .header {
+    position: relative;
+    top: 133px;
+  }
+
   h1 {
     font-size: 48px;
   }

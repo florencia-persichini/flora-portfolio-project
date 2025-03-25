@@ -13,7 +13,7 @@
 
 .index-bg {
   background-image: url("/images/background.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-position: center 112px;
   background-repeat: no-repeat;
   height: 100vh;
@@ -149,7 +149,6 @@ p {
 
   h2 {
     font-size: 22px;
-    font-weight: 500;
   }
 
   .line-1 {

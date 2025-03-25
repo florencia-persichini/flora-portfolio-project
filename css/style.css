@@ -85,8 +85,13 @@ h1 {
   color: black;
 }
 
-.title-hi {
+.title-about {
   margin-top: -15px;
+  line-height: 1;
+}
+
+.title-dev-work {
+  margin-top: 160px;
   line-height: 1;
 }
 

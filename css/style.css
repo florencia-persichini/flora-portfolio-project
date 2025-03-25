@@ -65,15 +65,8 @@
   width: 200px;
 }
 
-.line-1-index {
-  margin: 0 auto 25px auto;
-  width: 3px;
-  height: 65px;
-  background-color: black;
-}
-
-.line-1-about {
-  margin: 0 auto 25px auto;
+.line-1 {
+  margin: 0 auto 15px auto;
   width: 3px;
   height: 54px;
   background-color: black;
@@ -83,16 +76,11 @@ h1 {
   font-size: 78px;
   font-weight: 800;
   color: black;
-}
-
-.title-about {
-  margin-top: -15px;
   line-height: 1;
 }
 
 .title-dev-work {
   margin-top: 160px;
-  line-height: 1;
 }
 
 h2 {
@@ -102,36 +90,15 @@ h2 {
   color: black;
 }
 
-.index-subtitle {
-  margin-bottom: 41px;
-}
-
-.line-2-index {
-  margin: 0 auto;
-  width: 3px;
-  height: 380px;
-  background-color: black;
-}
-
-.line-2-about {
+.line-2 {
   margin: 0 auto;
   width: 3px;
   height: 64px;
   background-color: black;
 }
 
-.line-3-index {
-  margin: 0 auto;
-  position: relative;
-  top: 12px;
-  width: 3px;
-  height: 70px;
-  background-color: black;
-}
-
 .projects {
-  margin-top: 210px;
-  padding: 50px;
+  margin-top: 30px;
 }
 
 .project-titles {
@@ -147,7 +114,7 @@ p {
 }
 
 .breeze {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .clocks {
@@ -186,7 +153,7 @@ p {
     font-size: 18px;
   }
 
-  .line-1-index {
+  .line-1 {
     height: 40px;
   }
 
@@ -211,11 +178,12 @@ p {
   }
 
   .clocks {
-    margin-top: 10px;
+    margin-top: 70px;
   }
 
   .poem {
-    margin-top: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 
   .about-text {

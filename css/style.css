@@ -31,6 +31,14 @@
   width: 65px;
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
 .header {
   position: relative;
   top: 170px;

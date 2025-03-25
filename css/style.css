@@ -32,7 +32,8 @@
 }
 
 .header {
-  margin-top: 170px;
+  position: relative;
+  top: 170px;
 }
 
 .flora-image-index {

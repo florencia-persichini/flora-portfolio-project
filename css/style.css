@@ -1,16 +1,14 @@
 :root {
   --primary-color: #2928fe;
-  --secondary-color: #8785fb;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .sans-serif-font {
-  font-family: "Public Sans", sans-serif;
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
 }
 
 .serif-font {
-  font-family: "Ogg Text TRIAL";
-  font-weight: 100;
+  font-family: "Ogg Roman", "Times New Roman", Times, serif;
 }
 
 .index-bg {
@@ -29,20 +27,11 @@
   height: 100vh;
 }
 
-.navbar {
-  font-family: "Public Sans", sans-serif;
-}
-
 .flora-logo {
   width: 65px;
 }
 
-.header-index {
-  position: relative;
-  top: 190px;
-}
-
-.header-about {
+.header {
   position: relative;
   top: 170px;
 }
@@ -73,10 +62,11 @@
 }
 
 h1 {
-  font-size: 78px;
+  font-size: 68px;
   font-weight: 800;
   color: black;
   line-height: 1;
+  letter-spacing: -2px;
 }
 
 .title-dev-work {
@@ -84,8 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 25px;
   font-style: italic;
   color: black;
 }
@@ -126,4 +115,68 @@ p {
 }
 
 .primary-buttons {
-  backg
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.about-text {
+  margin-top: 200px;
+  padding: 0 200px;
+}
+
+@media (max-width: 992px) {
+  .flora-image-index {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .line-1 {
+    height: 40px;
+  }
+
+  .projects {
+    padding: 0 40px;
+  }
+
+  .project-titles {
+    font-style: normal;
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Ogg Roman";
+    font-weight: 600;
+  }
+
+  .breeze {
+    margin-top: 50px;
+  }
+
+  .clocks {
+    margin-top: 70px;
+  }
+
+  .poem {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .about-text {
+    margin-top: 200px;
+    padding: 0 50px;
+  }
+}

@@ -27,6 +27,14 @@
   height: 100vh;
 }
 
+.contact-bg {
+  background-image: url("/images/contact-background-gradient.jpg");
+  background-position: center 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
 .flora-logo {
   width: 65px;
 }
@@ -35,13 +43,22 @@
   color: var(--primary-color);
 }
 
+.nav-link {
+  transition: all 150ms ease-in-out;
+}
+
 .nav-link:hover {
   color: var(--primary-color);
 }
 
-.header {
+.main {
   position: relative;
   top: 170px;
+}
+
+.main-no-image {
+  position: relative;
+  top: 140px;
 }
 
 .flora-image-index {
@@ -84,10 +101,6 @@ h2 {
   background-color: black;
 }
 
-.title-dev-work {
-  margin-top: 160px;
-}
-
 .line-2 {
   margin: 0 auto;
   width: 3px;
@@ -99,7 +112,7 @@ h2 {
   margin-top: 30px;
 }
 
-.project-titles {
+h3 {
   font-style: normal;
   font-size: 44px;
 }
@@ -138,6 +151,23 @@ p {
   padding: 0 200px;
 }
 
+i {
+  color: var(--primary-color);
+  font-size: 34px;
+  margin-right: 8px;
+}
+
+.contact-links {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.contact-links:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 992px) {
   .flora-image-index {
     width: 200px;
@@ -168,7 +198,7 @@ p {
     padding: 0 40px;
   }
 
-  .project-titles {
+  h3 {
     font-style: normal;
     font-size: 34px;
   }
@@ -194,5 +224,9 @@ p {
   .about-text {
     margin-top: 200px;
     padding: 0 50px;
+  }
+
+  i {
+    font-size: 28px;
   }
 }

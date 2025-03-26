@@ -23,7 +23,6 @@
   background-image: url("/images/backgound-gradient-about.jpg");
   background-position: center 100px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -33,6 +32,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  margin-bottom: 140px;
 }
 
 .flora-logo {
@@ -167,6 +176,20 @@ i {
 
 .contact-links:hover {
   color: var(--primary-color);
+}
+
+footer {
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3px;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {

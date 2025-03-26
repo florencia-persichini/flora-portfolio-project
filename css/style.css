@@ -247,4 +247,8 @@ footer a {
   i {
     font-size: 28px;
   }
+
+  footer {
+    font-size: 13px;
+  }
 }

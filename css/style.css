@@ -40,10 +40,6 @@ body {
   min-height: 100vh;
 }
 
-main {
-  margin-bottom: 140px;
-}
-
 .flora-logo {
   width: 65px;
 }
@@ -62,13 +58,11 @@ main {
 }
 
 .main {
-  position: relative;
-  top: 170px;
+  margin-top: 170px;
 }
 
 .main-no-image {
-  position: relative;
-  top: 140px;
+  margin-top: 140px;
 }
 
 .flora-image-index {
@@ -157,7 +151,7 @@ p {
 }
 
 .about-text {
-  margin-top: 200px;
+  margin-top: 30px;
   padding: 0 200px;
 }
 
@@ -180,7 +174,7 @@ i {
 
 footer {
   color: black;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   margin-top: auto;
   margin-bottom: 3px;

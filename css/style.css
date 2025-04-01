@@ -148,6 +148,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-weight: 400;
 }
 
 .about-text {

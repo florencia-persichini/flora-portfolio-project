@@ -308,7 +308,8 @@ footer a {
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
   }
 
   .line-1 {
@@ -320,8 +321,9 @@ footer a {
   }
 
   h3 {
-    font-style: normal;
-    font-size: 34px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
   }
 
   p {

@@ -303,6 +303,14 @@ footer a {
     font-size: 22px;
   }
 
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
   .line-1 {
     height: 40px;
   }
@@ -345,5 +353,24 @@ footer a {
 
   footer {
     font-size: 13px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-photography,
+  .travel-galleries,
+  .inspiration {
+    padding: 60px;
+  }
+
+  .country {
+    padding: 60px 40px;
+  }
+
+  .country-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }

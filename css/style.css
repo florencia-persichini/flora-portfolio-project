@@ -42,7 +42,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 250px 0 470px 0;
+  padding-bottom: 470px;
 }
 
 body {
@@ -68,12 +68,8 @@ body {
   color: var(--primary-color);
 }
 
-.main {
+.h1-heading-margin-top {
   margin-top: 170px;
-}
-
-.main-no-image {
-  margin-top: 140px;
 }
 
 .flora-image-index {
@@ -199,7 +195,7 @@ i {
 .why-photography {
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  padding: 250px 255px;
+  padding: 250px 235px;
 }
 
 .why-photography-picture img {

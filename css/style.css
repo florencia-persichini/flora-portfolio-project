@@ -305,6 +305,8 @@ footer a {
 
   h3 {
     font-size: 28px;
+    margin-bottom: 10px;
+    line-height: 1.2;
   }
 
   h4 {
@@ -318,12 +320,6 @@ footer a {
 
   .projects {
     padding: 0 40px;
-  }
-
-  h3 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    line-height: 1.2;
   }
 
   p {

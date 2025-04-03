@@ -259,6 +259,14 @@ strong {
   padding: 100px 295px;
 }
 
+.country {
+  padding: 73px 360px;
+}
+
+.country-grid img {
+  width: 100%;
+}
+
 footer {
   color: black;
   font-size: 14px;

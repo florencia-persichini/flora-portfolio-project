@@ -1,5 +1,7 @@
 :root {
   --primary-color: #2928fe;
+  --secondary-color: #007aff;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -32,6 +34,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
+}
+
+.photography-work-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("/images/photography-work-background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 250px 0 470px 0;
 }
 
 body {
@@ -171,6 +182,85 @@ i {
 
 .contact-links:hover {
   color: var(--primary-color);
+}
+
+.line-3 {
+  margin: 0 auto 45px auto;
+  width: 3px;
+  height: 54px;
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  gap: 50px;
+}
+
+.why-photography {
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding: 250px 255px;
+}
+
+.why-photography-picture img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 44px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
+.why-photography-text p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.travel-galleries {
+  background: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+  padding: 100px 295px;
+}
+
+.maps-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.places {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.places iframe {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.places-text {
+  padding: 30px;
+}
+
+.places-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.places-footer {
+  padding: 0 0 50px 30px;
+  margin: 0;
+}
+
+.inspiration {
+  padding: 100px 295px;
 }
 
 footer {
